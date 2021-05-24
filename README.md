@@ -3,6 +3,8 @@
 字を書くのが苦手な自分の子どもが英単語を覚えるのにとりあえずタインピングで覚えてみるのはどうかと思い作りました。
 JavaScriptオンリーなのでどこでも使えます。ブラウザによってはローカルでも。
 
+Demo : https://www.junoe.jp/itoh/english_word/
+
 ## Project setup
 ```
 npm install
