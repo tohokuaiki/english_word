@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container">
     <div class="row">
-      <div class="offset-3 col-md-6">
+      <div class="offset-md-3 col-md-6">
         <h1>英単語をタイピングで覚えましょう。</h1>
         <div v-if="finish_flag" class="text-center">
           <img src="images/kusudama.png">
@@ -225,6 +225,9 @@ export default {
 #app h3{
   margin-top: 1vh;
   font-size: 1.4em;
+}
+#app img{
+  max-width: 95%;
 }
 #hint-modal .modal-header {
   display: none;
